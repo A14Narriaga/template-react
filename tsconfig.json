@@ -3,6 +3,7 @@
 		"baseUrl": ".",
 		"useDefineForClassFields": true,
 		"lib": ["esnext", "DOM", "DOM.Iterable"],
+    "target": "ES6",
 		"module": "esnext",
 		"skipLibCheck": true,
 		"moduleResolution": "bundler",
@@ -18,7 +19,6 @@
 		"noFallthroughCasesInSwitch": true,
 		"paths": {
 			"@src/*": ["src/*"],
-			"@shared/*": ["src/shared/*"],
 			"@tests/*": ["tests/*"]
 		},
 		"types": ["vitest/globals"]
